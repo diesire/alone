@@ -142,7 +142,7 @@ If you want to embed images, this is how you do it:
 
 ### Gist
 
-{% gist 5555251 %}
+{% gist parkr/931c1c8d465a04042403 %}
 
 
 # GFM
