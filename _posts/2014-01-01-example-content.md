@@ -11,6 +11,8 @@ title: Example content
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+>
+> > Aenean lacinia bibendum nulla sed consectetur.
 
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
@@ -46,6 +48,17 @@ adder(2, 6);
 // > 8
 {% endhighlight %}
 
+Also with 4 spaces
+
+    // Example can be run directly in your JavaScript console
+
+    // Create a function that takes two arguments and returns the sum of those arguments
+    var adder = new Function("a", "b", "return a + b");
+
+    // Call the function
+    adder(2, 6);
+    // > 8
+
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
 ### Lists
@@ -74,6 +87,8 @@ Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at
   <dt>JavaScript (JS)</dt>
   <dd>The programming language used to build advanced Web sites and applications</dd>
 </dl>
+
+- [ ] asdasd
 
 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
 
@@ -116,6 +131,83 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 </table>
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+# Media
+
+### Images
+
+If you want to embed images, this is how you do it:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+### Gist
+
+{% gist 5555251 %}
+
+
+# GFM
+
+### Multiple underscores in words
+
+GFM ignores underscores in words, like this:
+
+  * do_this_and_do_that_and_another_thing.
+
+### Autolinking
+
+* http://example.com
+
+### Strikethrough
+
+GFM adds syntax to create strikethrough text, which is missing from standard Markdown.
+* ~~Mistaken text.~~
+
+### Fenced code blocks
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+### Syntax highlighting
+
+```javascript
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+### Task Lists
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+### Emojis
+
+GitHub supports emoji! :sparkles: :camel: :boom:
+
+To see a list of every image we support, check out the [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/).
+
+### Tables
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | ~~Display the~~ help window.|
+| Close     | _Closes_ a window     |
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 
 -----
 
