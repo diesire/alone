@@ -18,5 +18,9 @@ author:
   url:               https://twitter.com/diesire
   email:             diesire@gmail.com
 
+# GitHub
+github:
+  repo:              https://github.com/diesire/alone
+
 # Custom vars
 version:             0.0.1
