@@ -209,4 +209,4 @@ Content Cell  | Content Cell
 
 -----
 
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+Want to see something else added? <a href="https://github.com/diesire/alone/issues/new">Open an issue.</a>
