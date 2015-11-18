@@ -130,20 +130,20 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
-# Media
+### Media
 
-### Images
+#### Images
 
 If you want to embed images, this is how you do it:
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-### Gist
+#### Gist
 
 {% gist parkr/931c1c8d465a04042403 %}
 
 
-# GFM
+## GFM
 
 ### Multiple underscores in words
 
