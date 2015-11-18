@@ -8,8 +8,8 @@ relative_permalinks: true
 title:               alone
 tagline:             'A Jekyll theme'
 description:         'A clean theme based on <a href="http://lanyon.getpoole.com">Lanyon</a>'
-url:                 https://github.com/diesire/alone
-baseurl:             ''
+url:                 http://diesire.github.io
+baseurl:             '/alone'
 paginate:            5
 
 # About/contact
