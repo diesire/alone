@@ -9,7 +9,7 @@ title:               alone
 tagline:             'A Jekyll theme'
 description:         'A clean theme based on <a href="http://lanyon.getpoole.com">Lanyon</a>'
 url:                 http://diesire.github.io/alone
-baseurl:             ''
+baseurl:             '/alone'
 paginate:            5
 
 # About/contact
