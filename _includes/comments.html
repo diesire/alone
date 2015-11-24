@@ -4,6 +4,7 @@
   <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = '{{site.disqus.shortname}}';
+    var disqus_identifier = "{{ page.url }}";
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -16,7 +17,6 @@
   {% endif %}
 
   {% if page.comments_count %}
-  <!-- Disqus Comments -->
   <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = '{{site.disqus.shortname}}';
@@ -35,17 +35,15 @@
 <!-- To see comment counter
 Add this snippet to post.html layout
 {% if page.comments and page.comments_count%}
-    <span class="post-count"><a href="{ page.url }index.html#disqus_thread" data-disqus-identifier="{ page.url }"></a></span>
+<span class="post-count">
+  <a href="{{ site.baseurl }}{{ page.url }}index.html#disqus_thread" data-disqus-identifier="{{ page.url }}"></a>
+</span>
 {% endif %}
 
 Or this other to index.html
 {% if page.comments_count%}
-    <span class="post-count"><a href="{ post.url }index.html#disqus_thread" data-disqus-identifier="{ post.url }"></a></span>
+<span class="post-count">
+  <a href="{{ site.baseurl }}{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
+</span>
 {% endif %}
--->
-
-
-<!-- More info
-See http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/
-http://blog.kilian.io/disqus-and-jekyll/
 -->
