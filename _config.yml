@@ -20,3 +20,17 @@ author:
 
 # Custom vars
 version:             0.0.1
+
+# Comments
+disqus:
+  shortname:         diesire
+
+# enable comments in posts by default
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      comments: true
+      comments_count: true
