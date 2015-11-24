@@ -12,6 +12,10 @@ url:                 http://diesire.github.io
 baseurl:             '/alone'
 paginate:            5
 
+markdown: redcarpet
+redcarpet:
+  extensions:        ['smart', 'tables', 'no_intra_emphasis', 'fenced_code_blocks', 'autolink', 'strikethrough', 'superscript', 'with_toc_data', 'footnotes', 'highlight']
+
 # About/contact
 author:
   name:              diesire
